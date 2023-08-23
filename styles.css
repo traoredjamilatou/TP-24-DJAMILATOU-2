@@ -1,0 +1,390 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    color:aliceblue;
+    padding: 0 2rem;
+    background-color: white;
+    z-index: 40;
+}
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    height: 3.2rem;
+}
+.logo img {
+    font-size: 2rem;
+    height: 4rem;
+   
+}
+.toggle {
+    display: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 550px;
+    font-size: 1.25rem;
+}
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+.menu button {
+    background-color: orangered;
+    font-size: 2rem;
+    border-radius: 10px;
+    /* border: 2px solidd; */
+}
+/* .header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.container2{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header .headerinner{
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.08);
+    padding: 8px 20px;
+}
+.justify-content-between {
+    -webkit-box-pack: justify!important;
+    justify-content: space-between!important;
+}
+.d-flex{
+    display: flex!important;
+}
+.bg-whrite{
+    background-color: #fff!important;
+}
+.header .headerinner>div{
+    line-height: 1;
+}
+.align-self-center{
+    align-self: center!important;
+}
+div{
+    display: block;
+} */
+body {
+    background: #fafafa;
+    margin: 0px;
+    padding: 0px;
+    color: #2c2c2c;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+body {
+    margin: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+small{
+    font-size: 17px;
+    color: #fff;
+}
+.small, small{
+    font-weight: 400;
+}
+section.innerpage.bg-yellow{
+    float: none;
+}
+.innerpage{
+    padding: 150px 0 80px;
+}
+.bg-yellow{
+    background-color: #f7a712;
+    
+}
+section{
+    width: 100%;
+    position: relative;
+}
+.Libre-bold{
+    font-family: 'Libre-Baskervile-bold';
+    
+}
+.text-white{
+    color: #fff;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+ .img img{
+margin-left: 300px;
+width: 60%;
+height: 50%;
+margin-bottom: 50px;
+
+}
+ .container1 h1{
+     padding: 0px 270px 0 270px;
+     margin-left: 50px;
+     margin-bottom: 50px;
+ }
+ .container1 p{
+    padding: 0px 270px 0 270px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+ .button{
+     background-color: #f7a712;
+     color: #fff;
+     border-radius: 2px solid ;
+     border: 4px solid;
+     font-size: 1.50rem;
+ }
+ 
+ .center-text{
+    text-align: center;
+}
+.center-text h2{
+    font-size: var(--h2-font);
+}
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+    display: flex;
+}
+.box{
+    padding: 80px 40px 66px;
+    background: #fff;
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+    transition: all .50s ease;
+    cursor: pointer;
+    margin: 50px 40px 50px 40px;
+}
+.box img{
+    margin-bottom: 20px;
+}
+.box h3{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: royalblue;
+}
+.box p{
+    font-size: 1.50rem;
+    font-weight: 400;
+    color: rgb(55, 54, 54);
+    line-height: 30px;
+    margin-bottom: 155px;
+}
+.services-content{
+    background-color: rgb(241, 237, 237);
+}
+.box:hover{
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.03);
+}
+ .clic{
+     border: 2px solid rgb(55, 54, 54);
+     color: royalblue;
+     border-radius: 25%;
+     font-size: 1rem;
+ }
+ .cli{
+    border: 2px solid rgb(55, 54, 54);
+    color: royalblue;
+    border-radius: 25%;
+    margin: 30px;
+    font-size: 1rem;
+ 
+}
+ .box h5{
+     margin-bottom: 25px;
+ }
+ .box .aux{
+    border: 2px solid rgb(55, 54, 54);
+    border-radius: 25%;
+    color: royalblue;
+    margin-bottom: 20px;
+}
+.footer{
+    padding: 50px;
+    background-color: black;
+    display: flex;
+    padding: 70px;
+   justify-content: space-evenly;
+}
+.img-footer img{
+    height: 6.2rem;
+    margin-bottom: 50px;
+}
+.img-footer p{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.icons{
+    margin-bottom: 10px;
+}
+.icons i{
+    display: inline-flex;
+   align-items: center; 
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+   color: var(--main-color);
+   border-radius: 50%;
+   backdrop-filter: brightness(88%);
+   font-size: 20px;
+   margin-right: 17px;
+   box-shadow: 0 0 20px transparent;
+   cursor: pointer;
+   transition: all.50s ease;
+   color: #fff;
+}
+.icons i:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--main-color);
+}
+.RA p{
+    font-size: 1rem;
+    /* margin-bottom: 35px; */
+    color: #fff;
+}
+.RA{
+margin-top: 150px;
+}
+.P{
+    font-size: 1rem;
+    color: #fff;
+}
+.rachi p{
+    font-size: 1rem;
+    color: #fff;
+}
+.rachi{
+margin-top: 150px;
+}
+.icons{
+    margin-top: 150px;
+}
+.icons p{
+    font-size: 1rem;
+    color: #fff;
+}
+/* .rachi h6{
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: black;
+}
+.p{
+    margin-bottom: 20px;
+}
+.a{
+    margin-bottom: 20px;
+}
+.z{
+    margin-bottom: 20px;
+}
+.e{
+    margin-bottom: 20px;
+}
+
+.rachid h6{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: black;
+    }  
+.rachid p{
+    color: black;
+    font-size: 1.50rem;
+}
+.RACHI P{
+    color: black;
+    font-size: 1.50rem;
+}
+.RACHI h6{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: black;
+    } */
+ 
+ 
+ 
+ /* element.style{
+    margin-top: -40px;
+}
+section{
+    padding: 70px 0px;
+    position: relative;
+    float: left;
+    width: 100%;
+    display: block;
+} 
+.mx-auto{
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.col-12{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+section .container img{
+    box-shadow: 1px 1px 8px 8px rgba(0,0,0,0.050);
+ 
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+    border: 0;
+} */
