@@ -212,7 +212,7 @@ padding-left: 250px;
 .icons{
     margin-bottom: 10px;
 }
-.icons i{
+.img-footer i{
     display: inline-flex;
    align-items: center; 
    justify-content: center;
@@ -257,4 +257,13 @@ margin-top: 150px;
 .icons p{
     font-size: 1rem;
     color: #fff;
+}
+.L{
+    text-align: center;
+    color: #fff;
+    background-color: #1d1d1d;
+    height: 80px;
+}
+.l{
+padding-top: 30px;
 }
